@@ -2,6 +2,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Open Downloads]
 @="Open Downloads"
+"Icon"="%SystemRoot%\\System32\\SHELL32.dll,122"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Open Downloads\command]
 @="explorer \"C:\\Users\\User\\Downloads\""

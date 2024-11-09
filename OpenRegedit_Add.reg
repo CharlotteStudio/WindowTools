@@ -2,6 +2,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Open Regedit]
 @="Open Regedit"
+"Icon"="%windir%\\regedit.exe"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Open Regedit\command]
-@="regedit"
+@="regedit.exe"
