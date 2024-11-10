@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Close Tbs_browser]
+@="Close Tbs_browser"
+"Icon"="%SystemRoot%\\System32\\SHELL32.dll,2"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Close Tbs_browser\command]
+@="taskkill /IM tbs_browser.exe /F"
