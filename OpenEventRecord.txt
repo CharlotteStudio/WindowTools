@@ -1,0 +1,20 @@
+系統可以看開關機 :
+
+	進入睡眠
+	Source :	Kernel-Power
+	Code :	42
+
+	開機
+	Contect :	電源變更。
+	Source :	Kernel-Power
+	Code :	105
+
+	開機 ( 會連 105 一齊 )
+	Contect :	系統已從睡眠狀態繼續。
+	Source :	Kernel-Power
+	Code :	107
+
+	開關/喚醒
+	Contect :	系統時間已變更已從 ‎2025‎-‎01‎-‎11T19:15:33.617077700Z 為‎2025‎-‎01‎-‎12T01:39:36.500000000Z。
+	Source :	Kernel-General
+	Code :	1

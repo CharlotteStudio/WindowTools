@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Open Event Record]
+@="Open Event Record"
+"Icon"="%windir%\\system32\\eventvwr.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Open Event Record\command]
+@="eventvwr.exe"
